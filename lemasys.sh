@@ -10,7 +10,7 @@
 
 #
 if [ -z "$1" ]; then
-        echo "enter target_folder(USAGE: lemasys.sh target_folder)"
+        echo "enter target_folder(USAGE: ./lemasys.sh PATH_TO_TARGET_FOLDER)"
         exit
 else
         echo "LeMaSys operating..."
